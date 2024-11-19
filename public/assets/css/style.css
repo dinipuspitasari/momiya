@@ -191,20 +191,20 @@
   .slider-height-padding {
     padding-top: 340px;
   }
-  ul li {
+  /* ul li {
     height: 300px;
     font-size: 13px;
     letter-spacing: 1px;
-  }
+  } */
 }
 
 @media (max-width: 575px) {
   .slider-height-padding {
     padding-top: 240px;
   }
-  ul li {
+  /* ul li {
     height: 200px;
-  }
+  } */
 }
 .forbidden {
   background-color: #1C2127;

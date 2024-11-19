@@ -23,22 +23,13 @@
                         class="block pt-2 w-full md:w-auto ps-10 text-sm text-gray-900 border border-gray-300 rounded-full bg-white focus:ring-blue-300 focus:border-grau-300 "
                         placeholder="Cari">
                 </div>
-                <a type="button"
-                    class="flex items-center justify-center text-white w-full md:w-48 bg-gray-900 hover:bg-gray-700 focus:ring-4 focus:ring-blue-300 font-medium text-sm px-1 py-2 sm:mb-0 rounded-full"
-                    href={{ url('/user/create') }}>
-                    <svg class="w-5 h-5 text-white dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                        width="24" height="24" fill="none" viewBox="0 0 24 24">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M5 12h14m-7 7V5" />
-                    </svg>
-                    Tambah Admin</a>
             </div>
 
         </div>
 
     </div>
     <div class="col">
-        <h2 class="mt-2 text-xl mb-1 font-semibold"> Data Admin</h2>
+        <h2 class="mt-2 text-xl mb-1 font-semibold"> Data Akun</h2>
         <hr>
     </div>
     <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
