@@ -318,7 +318,13 @@
     </div>
   </footer>
   
-
+  <script>
+    var botmanWidget = {
+        aboutText: 'Start the conversation with Hi',
+        introMessage: "SELAMAT DATANG DI MOMIYA MEDICAL CLINIC"
+    };
+</script>
+<script src="https://cdn.jsdelivr.net/npm/botman-web-widget@0/build/js/widget.js"></script>
 {{-- footer end --}}
 
 

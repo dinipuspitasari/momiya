@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\AuthenticatedSessionController;
+use App\Http\Controllers\BotManController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\DokterController;
 use App\Http\Controllers\JadwalController;
@@ -116,3 +117,6 @@ Route::get('/forbidden', function () {
 
 Route::middleware(['auth:sanctum',  config('jetstream.auth_session'), 'verified', 'Dokter'])->group(function () {
 });
+
+
+Route::match(['get', 'post'], '/botman', 'App\Http\Controllers\BotManController@handle');
